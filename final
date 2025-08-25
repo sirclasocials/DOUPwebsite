@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do Up Clothing</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #111;
+      text-align: center;
+    }
+    header {
+      background: url('pro.jpg') no-repeat center center/cover;
+      height: 60vh;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #111;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1em;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #f9f9f9;
+      padding: 15px;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .btn {
+      display: inline-block;
+      background: #111;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 15px;
+      border-radius: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: gray;
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header></header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h1>Do Up Clothing</h1>
+    <p>Elevate your style, Elevate your mindset</p>
+    <a href="#products" class="btn">Shop Now</a>
+    <a href="https://web.facebook.com/doup.clo" target="_blank" class="btn">Message Us on Facebook</a>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At DO UP, we believe in the power of self belief and constant growth. Our mission is to inspire the youth to break free from complacency and mediocrity, and strive for excellence. We are Manila based.</p>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="p1.jpg" alt="Shirt">
+        <h3>Do Up Shirt</h3>
+        <p>Price: 700-800 PHP</p>
+      </div>
+      <div class="product">
+        <img src="p2.jpg" alt="Shirt">
+        <h3>Do Up Shirt</h3>
+        <p>Price: 700-800 PHP</p>
+      </div>
+      <div class="product">
+        <img src="p3.jpg" alt="Shirt">
+        <h3>Do Up Shirt</h3>
+        <p>Price: 700-800 PHP</p>
+      </div>
+      <div class="product">
+        <img src="p4.jpg" alt="Shirt">
+        <h3>Do Up Shirt</h3>
+        <p>Price: 700-800 PHP</p>
+      </div>
+      <div class="product">
+        <img src="p5.jpg" alt="Shirt">
+        <h3>Do Up Shirt</h3>
+        <p>Price: 700-800 PHP</p>
+      </div>
+      <div class="product">
+        <img src="p6.jpg" alt="Shirt">
+        <h3>Do Up Shirt</h3>
+        <p>Price: 700-800 PHP</p>
+      </div>
+      <div class="product">
+        <img src="p7.jpg" alt="Shirt">
+        <h3>Do Up Shirt</h3>
+        <p>Price: 700-800 PHP</p>
+      </div>
+ 	<div class="product">
+        <img src="p8.jpg" alt="Shirt">
+        <h3>Do Up Shirt</h3>
+        <p>Price: 700-800 PHP</p>
+      </div>
+
+ 	<div class="product">
+        <img src="p9.jpg" alt="Shirt">
+        <h3>Do Up Shirt</h3>
+        <p>Price: 700-800 PHP</p>
+      </div>
+      <div class="product">
+        <img src="s2.jpg" alt="Sweatshirt">
+        <h3>Do Up Sweatshirt</h3>
+        <p>Price: 1300 PHP</p>
+      </div>
+      <div class="product">
+        <img src="s3.jpg" alt="Sweatshirt">
+        <h3>Do Up Sweatshirt</h3>
+        <p>Price: 1300 PHP</p>
+      </div>
+      <div class="product">
+        <img src="s11.jpg" alt="Design Gallery">
+        <h3>Design Gallery</h3>
+        <p>More designs coming soon</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Message us directly on Facebook for orders and inquiries.</p>
+<p>clarenceobida@gmail.com</p>
+<p>0963386****</p>
+    <a href="https://web.facebook.com/doup.clo" target="_blank" class="btn">Message Us on Facebook</a>
+  </section>
+
+  <footer>
+    <p>Owned by sirclasocials</p>
+<p>Fb: Sir Cla Socials</p>
+  </footer>
+
+</body>
+</html>
